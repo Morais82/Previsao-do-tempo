@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", serif;
+}
+body{
+    background-image: url("https://media.istockphoto.com/id/963005506/pt/foto/panoramic-view-of-a-lake-reflecting-sky-lake-mashu-akan-national-park-japan.jpg?s=2048x2048&w=is&k=20&c=mgBhl3kRVEUrhxarF2xWVQpren802mwTkwSktDK7S94=");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    
+}
+.caixa-maior{
+    background-color: black;
+    width: 95%;
+   max-width: 420px;
+    border-radius:25px;
+    opacity: 0.8;
+    padding: 20px;
+}
+
+input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 24px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #7c7c7c2b;
+    color: #ffffff;
+    width: calc(100% - 100px);
+}
+input:hover{
+    background-color: #7c7c7c6b;
+}
+
+.lupa{
+    height: 20px;
+    
+}
+
+button{
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: #7c7c7c2b;
+    float: right;
+    cursor: pointer;
+}
+
+button:hover{
+
+background-color: #7c7c7c6b;
+
+}
+
+.caixa-media{
+    margin-top: 30px;
+}
+.caixa-menor{
+    display: flex;
+    align-items: center;
+   
+}
+
+h2{
+    color: #ffffff;
+    font-size: 28px;
+}
+.temp{
+    color: #ffffff;
+    margin-top: 25px;
+}
+.descricao{
+    color: #ffffff;
+    margin-top: 25px;
+    text-transform: capitalize;
+}
+.umi{
+    color: #ffffff;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.icone{
+    margin-top: 25px;
+}
