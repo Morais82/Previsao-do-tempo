@@ -12,4 +12,4 @@
 <br>
 <br>
 <h2>Imagem do projeto</h2>
-<img src="">
+<img src="https://github.com/Morais82/Previsao-do-tempo/blob/main/assets/Captura%20de%20tela%202025-03-01%20183726.png?raw=true">
